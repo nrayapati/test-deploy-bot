@@ -11,3 +11,11 @@ labels:
     payload:
       port: 8080
       https: true
+  deploy-to-hugo:
+    environment: hugo
+    description: A test environment based on Docker
+    transient_environment: true
+    auto_merge: false
+    payload:
+      port: 8080
+      https: true      
